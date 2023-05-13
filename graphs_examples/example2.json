@@ -1,0 +1,157 @@
+{
+    "nodes": [
+        {
+          "x": 110,
+          "y": 280,
+          "filename": "A"
+        },
+        {
+            "x": 50,
+            "y": 400,
+            "filename": "B"
+        },
+        {
+            "x": 120,
+            "y": 370,
+            "filename": "C"
+        },
+        {
+            "x": 150,
+            "y": 320,
+            "filename": "D"
+        },
+        {
+            "x": 250,
+            "y": 550,
+            "filename": "E"
+        },
+        {
+            "x": 360,
+            "y": 380,
+            "filename": "F"
+        },
+        {
+            "x": 340,
+            "y": 190,
+            "filename": "G"
+        },
+        {
+            "x": 450,
+            "y": 150,
+            "filename": "H"
+        },
+        {
+            "x": 550,
+            "y": 200,
+            "filename": "I"
+        },
+        {
+            "x": 480,
+            "y": 200,
+            "filename": "J"
+        }
+        
+    ],
+    "edges": [
+       {
+        "start_node": "A",
+        "end_node": "B",
+        "distance": 6
+       },
+       {
+        "start_node": "B",
+        "end_node": "E",
+        "distance": 9
+       },
+       {
+        "start_node": "A",
+        "end_node": "C",
+        "distance": 4
+       },
+       {
+        "start_node": "B",
+        "end_node": "C",
+        "distance": 3
+       },
+       {
+        "start_node": "C",
+        "end_node": "E",
+        "distance": 9
+       },
+       {
+        "start_node": "A",
+        "end_node": "D",
+        "distance": 2
+       },
+       {
+        "start_node": "D",
+        "end_node": "C",
+        "distance": 2
+       },
+       {
+        "start_node": "C",
+        "end_node": "F",
+        "distance": 9
+       },
+       {
+        "start_node": "E",
+        "end_node": "F",
+        "distance": 8
+       },
+       {
+        "start_node": "A",
+        "end_node": "G",
+        "distance": 9
+       },
+       {
+        "start_node": "D",
+        "end_node": "G",
+        "distance": 9
+       },
+       {
+        "start_node": "G",
+        "end_node": "F",
+        "distance": 7
+       },
+       {
+        "start_node": "D",
+        "end_node": "F",
+        "distance": 8
+       },
+       {
+        "start_node": "E",
+        "end_node": "I",
+        "distance": 18
+       },
+       {
+        "start_node": "F",
+        "end_node": "I",
+        "distance": 10
+       },
+       {
+        "start_node": "F",
+        "end_node": "J",
+        "distance": 9
+       },
+       {
+        "start_node": "G",
+        "end_node": "J",
+        "distance": 5
+       },
+       {
+        "start_node": "G",
+        "end_node": "H",
+        "distance": 4
+       },
+       {
+        "start_node": "H",
+        "end_node": "J",
+        "distance": 1
+       },
+       {
+        "start_node": "H",
+        "end_node": "I",
+        "distance": 4
+       }
+    ]
+}

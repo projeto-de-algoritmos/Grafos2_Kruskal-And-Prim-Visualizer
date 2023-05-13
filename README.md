@@ -9,21 +9,39 @@
 | 20/0026488 |  Rafael de Medeiros Nobre |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O projeto é uma interface gráfica e interativa para visualizar os algoritmos de Busca de Árvore geradora mínima. Apresenta a execução dos algoritmos:
+- MST de Kruskal
+- MST de Prim
+
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Python 3.9+
+
+Uma vez que o python for instalado, execute o comando abaixo para instalar as dependências:
+
+```cli
+pip install -r requirements.txt
+````
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Para rodar o código, é necessário apontar para um arquivo json que contenha as informações de construção do grafo, a mesma estrutura presente em 'graph_examples', para executar o código, use o comando:
+
+```cli
+python main.py graph_examples/example2.json kruskal
+```
+Para executar o algoritmo de kruskal
+
+e 
+
+```cli
+python main.py graph_examples/example2.json prim
+```
+Para executar o algoritmo de prim
+
 
 
 

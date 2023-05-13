@@ -1,0 +1,81 @@
+{
+    "nodes": [
+        {
+          "x": 100,
+          "y": 200,
+          "filename": "A"
+        },
+        {
+          "x": 200,
+          "y": 100,
+          "filename": "B"
+        },
+        {
+          "x": 200,
+          "y": 300,
+          "filename": "C"
+        },
+        {
+          "x": 400,
+          "y": 100,
+          "filename": "D"
+        },
+        {
+          "x": 400,
+          "y": 300,
+          "filename": "E"
+        },
+        {
+          "x": 500,
+          "y": 200,
+          "filename": "F"
+        }
+    ],
+    "edges": [
+       {
+        "start_node": "A",
+        "end_node": "B",
+        "distance": 2
+       },
+       {
+        "start_node": "A",
+        "end_node": "C",
+        "distance": 3
+       },
+       {
+        "start_node": "B",
+        "end_node": "C",
+        "distance": 3
+       },
+       {
+        "start_node": "B",
+        "end_node": "D",
+        "distance": 4
+       },
+       {
+        "start_node": "B",
+        "end_node": "E",
+        "distance": 4
+       },
+       {
+        "start_node": "C",
+        "end_node": "E",
+        "distance": 5
+       },
+       {
+        "start_node": "D",
+        "end_node": "E",
+        "distance": 2
+       },
+       {
+        "start_node": "D",
+        "end_node": "F",
+        "distance": 3
+       },
+       {
+        "start_node": "E",
+        "end_node": "F",
+        "distance": 5
+       }
+    ]
+}
