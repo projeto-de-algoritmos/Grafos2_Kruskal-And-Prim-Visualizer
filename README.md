@@ -28,21 +28,16 @@ pip install -r requirements.txt
 
 ## Uso 
 
-Para rodar o código, é necessário apontar para um arquivo json que contenha as informações de construção do grafo, a mesma estrutura presente em 'graph_examples', para executar o código, use o comando:
+Para rodar o código, é necessário apontar para um arquivo json que contenha as informações de construção do grafo, a mesma estrutura presente em 'graphs_examples', para executar o código, use o comando:
 
 ```cli
-python main.py graph_examples/example2.json kruskal
+python main.py graphs_examples/example2.json kruskal
 ```
 Para executar o algoritmo de kruskal
 
 e 
 
 ```cli
-python main.py graph_examples/example2.json prim
+python main.py graphs_examples/example2.json prim
 ```
 Para executar o algoritmo de prim
-
-
-
-
-
