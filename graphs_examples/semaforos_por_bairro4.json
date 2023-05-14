@@ -1,0 +1,66 @@
+{
+    "nodes": [
+        {
+          "x": 110,
+          "y": 280,
+            "filename": "Semaforo U"
+        },
+        {
+          "x": 500,
+          "y": 400,
+          "filename": "Semaforo E"
+        },
+        {
+          "x": 120,
+          "y": 370,
+          "filename": "Semaforo A"
+        },
+        {
+          "x": 150,
+          "y": 320,
+          "filename": "Semaforo O"
+        },
+        {
+          "x": 250,
+          "y": 550,
+          "filename": "Semaforo I"
+        }   
+    ],
+    "edges": [
+       {
+        "start_node": "Semaforo A",
+        "end_node": "Semaforo U",
+        "distance": 9
+       },
+       {
+        "start_node": "Semaforo A",
+        "end_node": "Semaforo O",
+        "distance": 6
+       },
+       {
+        "start_node": "Semaforo E",
+        "end_node": "Semaforo O",
+        "distance": 5
+       },
+       {
+        "start_node": "Semaforo E",
+        "end_node": "Semaforo I",
+        "distance": 2
+       },
+       {
+        "start_node": "Semaforo U",
+        "end_node": "Semaforo I",
+        "distance": 4
+       },
+       {
+        "start_node": "Semaforo O",
+        "end_node": "Semaforo I",
+        "distance": 3
+       },
+       {
+        "start_node": "Semaforo O",
+        "end_node": "Semaforo U",
+        "distance": 7
+       }
+    ]
+}
