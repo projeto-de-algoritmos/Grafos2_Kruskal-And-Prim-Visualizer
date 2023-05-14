@@ -3,7 +3,7 @@ import pathlib
 import re
 from models.Note import Note
 import random
-import json
+
 
 def criar_grafo(path, node_color):
     # Cria um grafo vazio
