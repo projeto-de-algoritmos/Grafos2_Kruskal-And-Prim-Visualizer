@@ -52,7 +52,7 @@ def draw_line(screen, edge):
     # Render the distance value
     font = pygame.font.Font(None, 20)
     text = font.render(str(edge.distance), True, edge.color)
-    text_rect = text.get_rect(center=(mid_x -10, mid_y - 10))  # Adjust the y-coordinate with an offset
+    text_rect = text.get_rect(center=(mid_x -10, mid_y -10))  # Adjust the y-coordinate with an offset
     screen.blit(text, text_rect)
 
 def draw_edges(screen, graph: Graph):

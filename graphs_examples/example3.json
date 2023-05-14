@@ -1,0 +1,81 @@
+{
+    "nodes": [
+        {
+          "x": 100,
+          "y": 200,
+          "filename": "Rodovia A"
+        },
+        {
+          "x": 200,
+          "y": 100,
+          "filename": "Rodovia B"
+        },
+        {
+          "x": 200,
+          "y": 300,
+          "filename": "Rodovia C"
+        },
+        {
+          "x": 400,
+          "y": 100,
+          "filename": "Rodovia D"
+        },
+        {
+          "x": 400,
+          "y": 300,
+          "filename": "Rodovia E"
+        },
+        {
+          "x": 500,
+          "y": 200,
+          "filename": "Rodovia F"
+        }
+    ],
+    "edges": [
+       {
+        "start_node": "Rodovia A",
+        "end_node": "Rodovia B",
+        "distance": 2
+       },
+       {
+        "start_node": "Rodovia A",
+        "end_node": "Rodovia C",
+        "distance": 3
+       },
+       {
+        "start_node": "Rodovia B",
+        "end_node": "Rodovia C",
+        "distance": 3
+       },
+       {
+        "start_node": "Rodovia B",
+        "end_node": "Rodovia D",
+        "distance": 4
+       },
+       {
+        "start_node": "Rodovia B",
+        "end_node": "Rodovia E",
+        "distance": 4
+       },
+       {
+        "start_node": "Rodovia C",
+        "end_node": "Rodovia E",
+        "distance": 5
+       },
+       {
+        "start_node": "Rodovia D",
+        "end_node": "Rodovia E",
+        "distance": 2
+       },
+       {
+        "start_node": "Rodovia D",
+        "end_node": "Rodovia F",
+        "distance": 3
+       },
+       {
+        "start_node": "Rodovia E",
+        "end_node": "Rodovia F",
+        "distance": 5
+       }
+    ]
+}
