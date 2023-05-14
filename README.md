@@ -15,7 +15,10 @@ O projeto é uma interface gráfica e interativa para visualizar os algoritmos d
 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+image1.png
+image2.png
+image3.png
+image4.png
 
 ## Instalação 
 **Linguagem**: Python 3.9+
