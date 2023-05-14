@@ -1,4 +1,4 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Kruskal And Prim Visualizer
 
 **Conteúdo da Disciplina**: Grafos 2<br>
 
@@ -13,7 +13,6 @@ O projeto é uma interface gráfica e interativa para visualizar os algoritmos d
 - MST de Kruskal;
 - MST de Prim.
 
-
 ## Screenshots
 ![ScreenShot1](./assets/imagem1.png)
 ![ScreenShot1](./assets/imagem2.png)
@@ -21,7 +20,7 @@ O projeto é uma interface gráfica e interativa para visualizar os algoritmos d
 ![ScreenShot1](./assets/imagem4.png)
 
 ## Instalação 
-**Linguagem**: Python 3.9+
+**Linguagem**: Python 3.9 + <br>
 
 Uma vez que o python for instalado, execute o comando abaixo para instalar as dependências:
 
