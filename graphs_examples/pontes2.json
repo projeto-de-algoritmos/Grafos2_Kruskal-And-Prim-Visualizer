@@ -1,0 +1,156 @@
+{
+    "nodes": [
+        {
+          "x": 110,
+          "y": 280,
+          "filename": "Ponte A"
+        },
+        {
+          "x": 50,
+          "y": 400,
+          "filename": "Ponte B"
+        },
+        {
+          "x": 120,
+          "y": 370,
+          "filename": "Ponte C"
+        },
+        {
+          "x": 150,
+          "y": 320,
+          "filename": "Ponte D"
+        },
+        {
+          "x": 250,
+          "y": 550,
+          "filename": "Ponte E"
+        },
+        {
+          "x": 360,
+          "y": 380,
+          "filename": "Ponte F"
+        },
+        {
+          "x": 340,
+          "y": 190,
+          "filename": "Ponte G"
+        },
+        {
+          "x": 450,
+          "y": 150,
+          "filename": "Ponte H"
+        },
+        {
+          "x": 550,
+          "y": 200,
+          "filename": "Ponte I"
+        },
+        {
+          "x": 480,
+          "y": 200,
+          "filename": "Ponte J"
+        }
+    ],
+    "edges": [
+       {
+        "start_node": "Ponte A",
+        "end_node": "Ponte B",
+        "distance": 6
+       },
+       {
+        "start_node": "Ponte B",
+        "end_node": "Ponte E",
+        "distance": 9
+       },
+       {
+        "start_node": "Ponte A",
+        "end_node": "Ponte C",
+        "distance": 4
+       },
+       {
+        "start_node": "Ponte B",
+        "end_node": "Ponte C",
+        "distance": 3
+       },
+       {
+        "start_node": "Ponte C",
+        "end_node": "Ponte E",
+        "distance": 9
+       },
+       {
+        "start_node": "Ponte A",
+        "end_node": "Ponte D",
+        "distance": 2
+       },
+       {
+        "start_node": "Ponte D",
+        "end_node": "Ponte C",
+        "distance": 2
+       },
+       {
+        "start_node": "Ponte C",
+        "end_node": "Ponte F",
+        "distance": 9
+       },
+       {
+        "start_node": "Ponte E",
+        "end_node": "Ponte F",
+        "distance": 8
+       },
+       {
+        "start_node": "Ponte A",
+        "end_node": "Ponte G",
+        "distance": 9
+       },
+       {
+        "start_node": "Ponte D",
+        "end_node": "Ponte G",
+        "distance": 9
+       },
+       {
+        "start_node": "Ponte G",
+        "end_node": "Ponte F",
+        "distance": 7
+       },
+       {
+        "start_node": "Ponte D",
+        "end_node": "Ponte F",
+        "distance": 8
+       },
+       {
+        "start_node": "Ponte E",
+        "end_node": "Ponte I",
+        "distance": 18
+       },
+       {
+        "start_node": "Ponte F",
+        "end_node": "Ponte I",
+        "distance": 10
+       },
+       {
+        "start_node": "Ponte F",
+        "end_node": "Ponte J",
+        "distance": 9
+       },
+       {
+        "start_node": "Ponte G",
+        "end_node": "Ponte J",
+        "distance": 5
+       },
+       {
+        "start_node": "Ponte G",
+        "end_node": "Ponte H",
+        "distance": 4
+       },
+       {
+        "start_node": "Ponte H",
+        "end_node": "Ponte J",
+        "distance": 1
+       },
+       {
+        "start_node": "Ponte H",
+        "end_node": "Ponte I",
+        "distance": 4
+       }
+    ]
+}

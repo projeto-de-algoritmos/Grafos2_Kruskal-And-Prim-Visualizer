@@ -6,51 +6,50 @@
           "filename": "A"
         },
         {
-            "x": 50,
-            "y": 400,
-            "filename": "B"
+          "x": 50,
+          "y": 400,
+          "filename": "B"
         },
         {
-            "x": 120,
-            "y": 370,
-            "filename": "C"
+          "x": 120,
+          "y": 370,
+          "filename": "C"
         },
         {
-            "x": 150,
-            "y": 320,
-            "filename": "D"
+          "x": 150,
+          "y": 320,
+          "filename": "D"
         },
         {
-            "x": 250,
-            "y": 550,
-            "filename": "E"
+          "x": 250,
+          "y": 550,
+          "filename": "E"
         },
         {
-            "x": 360,
-            "y": 380,
-            "filename": "F"
+          "x": 360,
+          "y": 380,
+          "filename": "F"
         },
         {
-            "x": 340,
-            "y": 190,
-            "filename": "G"
+          "x": 340,
+          "y": 190,
+          "filename": "G"
         },
         {
-            "x": 450,
-            "y": 150,
-            "filename": "H"
+          "x": 450,
+          "y": 150,
+          "filename": "H"
         },
         {
-            "x": 550,
-            "y": 200,
-            "filename": "I"
+          "x": 550,
+          "y": 200,
+          "filename": "I"
         },
         {
-            "x": 480,
-            "y": 200,
-            "filename": "J"
+          "x": 480,
+          "y": 200,
+          "filename": "J"
         }
-        
     ],
     "edges": [
        {

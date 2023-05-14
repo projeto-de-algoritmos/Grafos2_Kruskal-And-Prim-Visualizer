@@ -3,7 +3,7 @@
         {
           "x": 110,
           "y": 280,
-            "filename": "A"
+            "filename": "U"
         },
         {
           "x": 500,
@@ -13,7 +13,7 @@
         {
           "x": 120,
           "y": 370,
-          "filename": "I"
+          "filename": "A"
         },
         {
           "x": 150,
@@ -23,13 +23,13 @@
         {
           "x": 250,
           "y": 550,
-          "filename": "U"
+          "filename": "I"
         }   
     ],
     "edges": [
        {
         "start_node": "A",
-        "end_node": "E",
+        "end_node": "U",
         "distance": 9
        },
        {

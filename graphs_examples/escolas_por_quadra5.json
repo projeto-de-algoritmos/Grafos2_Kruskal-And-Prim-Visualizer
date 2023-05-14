@@ -1,0 +1,66 @@
+{
+    "nodes": [
+        {
+          "x": 110,
+          "y": 280,
+            "filename": "Escola Z"
+        },
+        {
+          "x": 500,
+          "y": 300,
+          "filename": "Escola W"
+        },
+        {
+          "x": 120,
+          "y": 380,
+          "filename": "Escola Y"
+        },
+        {
+          "x": 150,
+          "y": 320,
+          "filename": "Escola R"
+        },
+        {
+          "x": 150,
+          "y": 550,
+          "filename": "Escola M"
+        }   
+    ],
+    "edges": [
+       {
+        "start_node": "Escola M",
+        "end_node": "Escola R",
+        "distance": 9
+       },
+       {
+        "start_node": "Escola Y",
+        "end_node": "Escola W",
+        "distance": 6
+       },
+       {
+        "start_node": "Escola Y",
+        "end_node": "Escola Z",
+        "distance": 5
+       },
+       {
+        "start_node": "Escola Y",
+        "end_node": "Escola Z",
+        "distance": 2
+       },
+       {
+        "start_node": "Escola R",
+        "end_node": "Escola Z",
+        "distance": 4
+       },
+       {
+        "start_node": "Escola W",
+        "end_node": "Escola Z",
+        "distance": 3
+       },
+       {
+        "start_node": "Escola M",
+        "end_node": "Escola Y",
+        "distance": 7
+       }
+    ]
+}

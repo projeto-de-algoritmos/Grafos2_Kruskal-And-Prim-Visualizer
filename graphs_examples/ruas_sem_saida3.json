@@ -3,63 +3,63 @@
         {
           "x": 110,
           "y": 280,
-            "filename": "A"
+          "filename": "Rua A"
         },
         {
           "x": 500,
           "y": 400,
-          "filename": "E"
+          "filename": "Rua E"
         },
         {
           "x": 120,
           "y": 370,
-          "filename": "I"
+          "filename": "Rua I"
         },
         {
           "x": 150,
           "y": 320,
-          "filename": "O"
+          "filename": "Rua O"
         },
         {
           "x": 250,
           "y": 550,
-          "filename": "U"
+          "filename": "Rua U"
         }   
     ],
     "edges": [
        {
-        "start_node": "A",
-        "end_node": "E",
+        "start_node": "Rua A",
+        "end_node": "Rua E",
         "distance": 9
        },
        {
-        "start_node": "A",
-        "end_node": "O",
+        "start_node": "Rua A",
+        "end_node": "Rua O",
         "distance": 6
        },
        {
-        "start_node": "E",
-        "end_node": "O",
+        "start_node": "Rua E",
+        "end_node": "Rua O",
         "distance": 5
        },
        {
-        "start_node": "E",
-        "end_node": "I",
+        "start_node": "Rua E",
+        "end_node": "Rua I",
         "distance": 2
        },
        {
-        "start_node": "U",
-        "end_node": "I",
+        "start_node": "Rua U",
+        "end_node": "Rua I",
         "distance": 4
        },
        {
-        "start_node": "O",
-        "end_node": "I",
+        "start_node": "Rua O",
+        "end_node": "Rua I",
         "distance": 3
        },
        {
-        "start_node": "O",
-        "end_node": "U",
+        "start_node": "Rua O",
+        "end_node": "Rua U",
         "distance": 7
        }
     ]
