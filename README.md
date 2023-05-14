@@ -9,9 +9,9 @@
 | 20/0026488 |  Rafael de Medeiros Nobre |
 
 ## Sobre 
-O projeto é uma interface gráfica e interativa para visualizar os algoritmos de Busca de Árvore geradora mínima. Apresenta a execução dos algoritmos:
-- MST de Kruskal
-- MST de Prim
+O projeto é uma interface gráfica e interativa para visualizar os algoritmos de Busca de Árvore Geradora Mínima. Apresenta a execução dos algoritmos:
+- MST de Kruskal;
+- MST de Prim.
 
 
 ## Screenshots
@@ -33,11 +33,11 @@ Para rodar o código, é necessário apontar para um arquivo json que contenha a
 ```cli
 python main.py graphs_examples/example2.json kruskal
 ```
-Para executar o algoritmo de kruskal
+Para executar o algoritmo de kruskal.
 
 e 
 
 ```cli
 python main.py graphs_examples/example2.json prim
 ```
-Para executar o algoritmo de prim
+Para executar o algoritmo de Prim.
