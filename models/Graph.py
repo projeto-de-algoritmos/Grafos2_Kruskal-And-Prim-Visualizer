@@ -70,9 +70,7 @@ class Graph:
                     visited.add(neighbor)
                     parent[neighbor] = curr_node
         return None
-
-
-
+    
 if __name__ == '__main__':
     nosso_grafo = Graph()
 

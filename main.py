@@ -21,7 +21,6 @@ YELLOW = (255, 255, 0)
 SCREEN_WIDTH = 600
 SCREEN_HEIGHT = 700
 
-
 def draw_nodes(screen, graph: Graph):
     for node, neighbors in graph.adj_list.items():
         pygame.draw.circle(screen, node.color, (node.x, node.y), node.radius)

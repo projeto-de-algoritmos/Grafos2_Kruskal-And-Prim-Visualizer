@@ -25,7 +25,6 @@ class UnionFind:
                 self.parent[root2] = root1
                 self.rank[root1] += 1
 
-
 def kruskal(grafo: Graph):
     # Sort the edges in ascending order based on distance
     sorted_edges = sorted(grafo.edge_list, key=lambda edge: edge.distance)

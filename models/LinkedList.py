@@ -46,7 +46,6 @@ class LinkedList:
             curr_node.next = new_node
         self.len += 1
 
-
 if __name__ == '__main__':
     node_1 = Note('Bancos de dados relacionais')
     node_2 = Note('Declaracoes')

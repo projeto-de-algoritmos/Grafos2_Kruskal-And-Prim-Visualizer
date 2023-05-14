@@ -27,7 +27,6 @@ class Note:
         self.x = new_x
         self.y = new_y
 
-    
 if __name__ == '__main__':
     nota = Note('Bancos de dados relacionais')
     print(nota)
