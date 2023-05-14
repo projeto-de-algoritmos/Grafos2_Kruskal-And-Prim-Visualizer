@@ -15,10 +15,10 @@ O projeto é uma interface gráfica e interativa para visualizar os algoritmos d
 
 
 ## Screenshots
-image1.png
-image2.png
-image3.png
-image4.png
+![ScreenShot1](./assets/imagem1.png)
+![ScreenShot1](./assets/imagem2.png)
+![ScreenShot1](./assets/imagem3.png)
+![ScreenShot1](./assets/imagem4.png)
 
 ## Instalação 
 **Linguagem**: Python 3.9+
